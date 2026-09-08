@@ -37,3 +37,5 @@ Se desejar rodar o projeto em sua máquina:
 
 ---
 Feito com 🧠 por **Pedro Lucas** em colaboração com IA.
+
+
