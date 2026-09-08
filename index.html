@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro | Portfólio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Pedro<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content fade-in">
+            <p class="greeting">Olá, eu sou</p>
+            <h1>Pedro</h1>
+            <h2 class="subtitle">Desenvolvedor & Criador de Soluções</h2>
+            <p class="description">
+                Construindo experiências digitais modernas, elegantes e funcionais. 
+                Bem-vindo ao meu portfólio 100% desenvolvido com Inteligência Artificial.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contact" class="btn btn-secondary">Entrar em Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-container fade-in">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou um entusiasta de tecnologia apaixonado por criar soluções inovadoras. 
+                        Este projeto é fruto de um desafio acadêmico para construir uma aplicação completa 
+                        utilizando ferramentas de Inteligência Artificial.
+                    </p>
+                    <p>
+                        Minhas principais habilidades incluem:
+                    </p>
+                    <ul class="skills-list">
+                        <li><i class="fas fa-check-circle"></i> HTML5 & CSS3 Moderno</li>
+                        <li><i class="fas fa-check-circle"></i> JavaScript (ES6+)</li>
+                        <li><i class="fas fa-check-circle"></i> UI/UX Design</li>
+                        <li><i class="fas fa-check-circle"></i> Inteligência Artificial</li>
+                        <li><i class="fas fa-check-circle"></i> Git & GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+        <div class="section-container fade-in">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/HandTracking.png');"></div>
+                    <div class="project-info">
+                        <h3>Hand Tracking</h3>
+                        <p>Projeto de Machine Learning que reconhece e rastreia mãos em tempo real utilizando visão computacional avançada.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>MediaPipe</span>
+                        </div>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Ver Projeto</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/ecowatch.png');"></div>
+                    <div class="project-info">
+                        <h3>EcoWatch</h3>
+                        <p>Desenvolvido em uma hackathon de 1 dia. Consome dados climáticos via API (temperatura, umidade por estado) e usa IA para gerar relatórios sobre a qualidade do ar.</p>
+                        <div class="project-tags">
+                            <span>API</span>
+                            <span>IA</span>
+                            <span>Hackathon</span>
+                        </div>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Ver Projeto</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/sasl.png');"></div>
+                    <div class="project-info">
+                        <h3>SASL</h3>
+                        <p>Sistema de Agendamento de Salas e Laboratórios (SASL), desenvolvido para facilitar a gestão e organização de espaços físicos.</p>
+                        <div class="project-tags">
+                            <span>Sistema Web</span>
+                            <span>Gestão</span>
+                        </div>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Ver Projeto</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/tela1decifra.png');"></div>
+                    <div class="project-info">
+                        <h3>Decifra</h3>
+                        <p>Plataforma educativa criada em equipe para auxiliar o aprendizado de matemática de forma lúdica, através de jogos e vídeos interativos.</p>
+                        <div class="project-tags">
+                            <span>Educação</span>
+                            <span>Jogos</span>
+                        </div>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Ver Projeto</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/tela_luminous.png');"></div>
+                    <div class="project-info">
+                        <h3>Luminous</h3>
+                        <p>Desenvolvimento de um website completo com foco em UI/UX para uma academia exclusiva para o público feminino.</p>
+                        <div class="project-tags">
+                            <span>Web Design</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Ver Projeto</a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('images/xssDoom.png');"></div>
+                    <div class="project-info">
+                        <h3>XSS Doom</h3>
+                        <p>Script de cibersegurança (prova de conceito). Injeta e roda o clássico jogo Doom na tela de sites vulneráveis a ataques de Cross-Site Scripting (XSS).</p>
+                        <div class="project-tags">
+                            <span>Cibersegurança</span>
+                            <span>XSS</span>
+                            <span>Pentest</span>
+                        </div>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> Ver Projeto</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-container fade-in">
+            <h2 class="section-title">Contato</h2>
+            <p class="contact-subtitle">Gostou do meu trabalho? Vamos conversar!</p>
+            
+            <div class="contact-links">
+                <a href="mailto:seuemail@exemplo.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>seuemail@exemplo.com</span>
+                </a>
+                <a href="https://github.com/seugithub" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/seulinkedin" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Pedro. Desenvolvido com IA para a disciplina do professor Alvaro.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
